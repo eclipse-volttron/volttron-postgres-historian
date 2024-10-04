@@ -4,7 +4,15 @@
 [![Run Pytests](https://github.com/eclipse-volttron/volttron-postgresql-historian/actions/workflows/run-tests.yml/badge.svg)](https://github.com/eclipse-volttron/volttron-postgresql-historian/actions/workflows/run-tests.yml)
 [![pypi version](https://img.shields.io/pypi/v/volttron-postgresql-historian.svg)](https://pypi.org/project/volttron-postgresql-historian/)
 
-VOLTTRON historian agent that stores data into a PostgreSQL database
+## Pre-requisite
+
+Before installing this agent, VOLTTRON (>=11.0.0rc0) should be installed and running.  Its virtual environment should be active.
+Information on how to install of the VOLTTRON platform can be found
+[here](https://github.com/eclipse-volttron/volttron-core).
+
+## Automatically installed dependencies
+
+- volttron-lib-sql-historian >= 2.0.0rc0
 
 ### Installation notes
 
