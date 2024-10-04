@@ -122,22 +122,6 @@ add \'timescale_dialect: true\' to the connection params in the agent config as 
 
 ## Installation
 
-1. Create and activate a virtual environment.
-
-   ```shell
-    python -m venv env
-    source env/bin/activate
-    ```
-
-2. Installing volttron-postgresql-historian requires a running volttron instance and the psycopg2 library 
-
-    ```shell
-    pip install volttron
-    pip install psycopg2-binary
-    
-    # Start platform with output going to volttron.log
-    volttron -vv -l volttron.log &
-    ```
 3. Setup database
    
    If this is not a development environment we highly recommend that you create the database and database tables using
