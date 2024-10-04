@@ -122,7 +122,7 @@ add \'timescale_dialect: true\' to the connection params in the agent config as 
 
 ## Installation
 
-3. Setup database
+1. Setup database
    
    If this is not a development environment we highly recommend that you create the database and database tables using
    a user with appropriate permissions. This way the database user used by the historian need not have CREATE privileges
@@ -179,18 +179,18 @@ add \'timescale_dialect: true\' to the connection params in the agent config as 
     database to the test user and let the historian create tables and indexes at startup. We do not recommend this for 
     production environments
 
-4. Create an agent configuration file 
+1. Create an agent configuration file 
 
     Create an agent configuration with appropriate connection parameters as described in the [Configurations section](#Configuration)
 
-5. Install and start the volttron-postgresql-historian.
+1. Install and start the volttron-postgresql-historian.
 
     ```shell
     vctl install volttron-postgresql-historian --agent-config <path to configuration> --start
     ```
 
-6. View the status of the installed agent
-
+1. View the status of the installed agent
+   
     ```shell
     vctl status
     ```
